@@ -1,6 +1,6 @@
 # Project Title :
 
-List of the Funnist Auto-Generator caption on youtube
+List of the Funnist Auto-Generated caption on youtube
 
 ## Project overview :
 
