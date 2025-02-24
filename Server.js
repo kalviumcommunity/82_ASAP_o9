@@ -12,7 +12,7 @@ app.get('/', (req,res) => {
 })
 
 app.post('/ping' , (req,res) => {
-       
+    console.log(req.body)
     try{
         const {name,email,phNumber} = req.body;
         if(!name || !email ||!phNumber){
