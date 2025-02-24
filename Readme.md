@@ -45,6 +45,8 @@ Deployment : Vercel(Frontend), Render/Railway(Backend).
  ## ASAP 3 :-
   - Created Server.js file , installed express,cors,chalk added node_modules and package-lock.json to gitignore.
 
+## ASAP 4 :-
+ - Created Simple server to deploy in render 
 
 keys -- master -- Myfile
      -- login filename -- Myfile;
