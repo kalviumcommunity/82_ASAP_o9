@@ -34,6 +34,15 @@ API Testinng : Postman/Bruno.
 
 Deployment : Vercel(Frontend), Render/Railway(Backend).
 
+
+
+## ASAP 1:- 
+ - created ReadMe.md file and defined My project, in local branch (login)
+
+## ASAP 2 :- 
+ - created .gitignore and package.json file(npm init) , in local branch (setting_2)
+
+
 keys -- master -- Myfile
      -- login filename -- Myfile;
      -- setting_2 filename -- myfile;
