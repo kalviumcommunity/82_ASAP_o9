@@ -1,15 +1,36 @@
 const express = require('express');
 const app = express();
 const port = 9000;
+const cors = require('cors');
 const chalk = require('chalk');
 
+
+app.use(cors());
 app.use(express.json());
 app.get('/', (req,res) => {
     res.send("Yo hello ASAP_3 nice to meet ya");
 })
 
 app.post('/ping' , (req,res) => {
-    console.log("Above app.get was not showing up in the webpage if i use get , so i used app.post")
+
+    try{
+        const {name,email,phNumner} = req.body;
+        if(!name || !email){
+            return res.status(400).json({message : "All input fields are required"});
+        }
+    
+        const len = phNumner.length;
+        if(len<10 || len>10){
+            return res.status(400).json({message : "Invalid phNumber"});
+        }
+        else{
+            return res.status(201).json({message:"Successfull"});
+        }
+    }
+
+    catch(e){
+        console.log(chalk.red("Failure",e));
+    }
 } )
 
 app.listen(port, (req,res) => {
