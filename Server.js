@@ -15,7 +15,7 @@ app.post('/ping' , (req,res) => {
     console.log(req.body)
     try{
         const {name,email,phNumber} = req.body;
-        if(!name || !email ||!phNumber){
+        if(!name || !email || !phNumber){
             return res.status(400).json({message : "All input fields are required"});
         }
     
