@@ -12,7 +12,7 @@ app.get('/', (req,res) => {
 })
 
 app.post('/ping' , (req,res) => {
-   
+       
     try{
         const {name,email,phNumber} = req.body;
         if(!name || !email ||!phNumber){
@@ -27,10 +27,12 @@ app.post('/ping' , (req,res) => {
             return res.status(201).json({message:"Successfull"});
         }
     }
+    
 
     catch(e){
         console.log(chalk.red("Failure",e));
     }
+    
 } )
 
 app.listen(port, () => {
