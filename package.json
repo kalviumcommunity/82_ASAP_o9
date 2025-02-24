@@ -1,0 +1,19 @@
+{
+  "name": "82_asap_o9",
+  "version": "1.0.0",
+  "description": "List of the Funnist Auto-Generated caption on youtube",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kalviumcommunity/82_ASAP_o9.git"
+  },
+  "author": "MONARCH",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kalviumcommunity/82_ASAP_o9/issues"
+  },
+  "homepage": "https://github.com/kalviumcommunity/82_ASAP_o9#readme"
+}
