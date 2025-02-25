@@ -51,8 +51,3 @@ Deployment : Vercel(Frontend), Render/Railway(Backend).
 
 
 
-
-keys -- master -- Myfile
-     -- login filename -- Myfile;
-     -- setting_2 filename -- myfile;
-    
