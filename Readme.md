@@ -42,10 +42,12 @@ Deployment : Vercel(Frontend), Render/Railway(Backend).
 
 ## ASAP 2 :- 
  - in local branch (setting_2).
- - Created .gitignore and package.json file(npm init) , in local branch (setting_2).
+ - Created .gitignore and package.json file(npm init).
 
  ## ASAP 3 :-
-   - in ;ocal branch (ASAP_3).
+  - in local branch (ASAP_3).
   - Created Server.js file , installed express,cors,chalk added node_modules and package-lock.json to gitignore.
+
+
 
 
