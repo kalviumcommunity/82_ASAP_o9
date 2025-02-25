@@ -56,7 +56,7 @@ Deployment : Vercel(Frontend), Render/Railway(Backend).
 
 ## ASAP 5 :-
  - Created a branch locally (ASAP_5).
- - created doc.sbruno file for testing.
+ - created doc.sbruno file for testing and tested post and get.
  
 
 
