@@ -37,15 +37,19 @@ Deployment : Vercel(Frontend), Render/Railway(Backend).
 
 
 ## ASAP 1:- 
- - Created ReadMe.md file and defined My project, in local branch (login).
+ -  in local branch (login).
+ - Created ReadMe.md file and defined My project.
 
 ## ASAP 2 :- 
- - Created .gitignore and package.json file(npm init) , in local branch (setting_2).
+ - in local branch (setting_2).
+ - Created .gitignore and package.json file(npm init).
 
  ## ASAP 3 :-
+  - in ;ocal branch (ASAP_3).
   - Created Server.js file , installed express,cors,chalk added node_modules and package-lock.json to gitignore.
 
 ## ASAP 4 :-
+ - No local branch created / nedded to be created in the task.
  - Created Simple server to deploy in render 
 # link :- url("https://eight2-asap-o9-3.onrender.com")
 
